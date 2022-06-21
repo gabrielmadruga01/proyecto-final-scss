@@ -1,0 +1,121 @@
+
+
+@import "_variables.scss";
+@import "contactos.scss";
+@import "nosotros.scss";
+@import "soporte.scss";
+@import "tienda.scss";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	height: 30%;
+}
+.headerImg {
+	position: relative;
+	height: 450px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.logo {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 25px;
+	left: 25px;
+}
+ul {
+	background-color: $background-color_1;
+	padding: 30px;
+	text-align: center;
+	li {
+		list-style: none;
+		background-color: $background-color_2;
+		padding: 5px;
+		border-radius: 25%;
+		display: inline-block;
+		margin-right: 10px;
+		&:hover {
+			background-color: $background-color_3;
+			transition-duration: 1s;
+		}
+	}
+}
+a {
+	color: $color_1;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+.tituloTabla {
+	color: $color_2;
+	background-color: $background-color_4;
+}
+.imgNoticias {
+	width: 400px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+    border-radius: 15%;
+    &:hover {
+        transform: scale(1.05);
+        transition-duration: .5s;
+    }
+}
+
+footer {
+	background-color: $background-color_1;
+	width: 100%;
+}
+ol {
+	list-style: none;
+	padding: 0%;
+}
+li.footer {
+	img {
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-left: 40px;
+	}
+	display: inline-block;
+	position: sticky;
+}
+.navFooter {
+	margin-top: auto;
+}
+.olRedes {
+	text-align: center;
+	background-color: $background-color_1;
+}
+.redes {
+	color: $color_1;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: $font-family_2;
+}
+@media (max-width:770px) {
+	.bodyIndex {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media (max-width:380px) {
+	.bodyIndex {
+		flex-direction: column;
+		align-items: center;
+	}
+	.imgNoticias {
+		display: none;
+	}
+}
+@media (max-width: 990px) {
+	ul {
+		li {
+			border-radius: 0;
+		}
+	}
+}

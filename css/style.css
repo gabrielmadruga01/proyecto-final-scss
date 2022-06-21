@@ -1,0 +1,191 @@
+section.sectionContacto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+h1.h1Contacto {
+  margin-bottom: 20px;
+  text-align: center; }
+
+form {
+  border: solid 3px black;
+  padding: 50px;
+  border-radius: 25px;
+  background: rgba(102, 97, 97, 0.548); }
+
+input {
+  border: solid 2px black;
+  padding: 2px; }
+
+textarea {
+  border: solid 2px black;
+  padding: 2px; }
+
+.boton {
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  padding: 20px;
+  margin: 0 10px 20px 0;
+  border: 2px solid black;
+  background: #eee23b;
+  border-radius: 8px 8px 8px 8px; }
+
+.h2nosotros {
+  text-align: center;
+  padding: 25px;
+  font-size: 50px; }
+
+.pNosotros {
+  margin: 0 200px 0 200px;
+  padding: 25px; }
+
+.imgNosotros {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  padding: 30px; }
+
+.imgMasTxt {
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px; }
+
+section.sectionSoporte {
+  margin: 50px 300px 100px 300px; }
+
+.h1soporte {
+  margin-bottom: 50px;
+  text-align: center; }
+
+.imgSoporte {
+  padding-top: 125px;
+  margin-left: 250px; }
+
+div.productos img {
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 30px;
+  border: solid 1px grey; }
+  div.productos img:hover {
+    transform: scale(1.05);
+    border: solid 1px #083a52;
+    transition-duration: .5s; }
+
+div.titulos h2 {
+  width: 300px;
+  font-family: "Lora", serif;
+  text-decoration: underline;
+  font-size: 50px; }
+
+h1.h1Tienda {
+  text-align: center;
+  padding: 30px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  height: 30%; }
+
+.headerImg {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  margin-bottom: 0px; }
+
+.logo {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 25px;
+  left: 25px; }
+
+ul {
+  background-color: #1d2147;
+  padding: 30px;
+  text-align: center; }
+  ul li {
+    list-style: none;
+    background-color: #50d2e4;
+    padding: 5px;
+    border-radius: 25%;
+    display: inline-block;
+    margin-right: 10px; }
+    ul li:hover {
+      background-color: aqua;
+      transition-duration: 1s; }
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold; }
+
+.tituloTabla {
+  color: darkslategray;
+  background-color: darkorange; }
+
+.imgNoticias {
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 15%; }
+  .imgNoticias:hover {
+    transform: scale(1.05);
+    transition-duration: .5s; }
+
+footer {
+  background-color: #1d2147;
+  width: 100%; }
+
+ol {
+  list-style: none;
+  padding: 0%; }
+
+li.footer {
+  display: inline-block;
+  position: sticky; }
+  li.footer img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 40px; }
+
+.navFooter {
+  margin-top: auto; }
+
+.olRedes {
+  text-align: center;
+  background-color: #1d2147; }
+
+.redes {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+@media (max-width: 770px) {
+  .bodyIndex {
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 380px) {
+  .bodyIndex {
+    flex-direction: column;
+    align-items: center; }
+  .imgNoticias {
+    display: none; } }
+
+@media (max-width: 990px) {
+  ul li {
+    border-radius: 0; } }
