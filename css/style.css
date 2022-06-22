@@ -7,30 +7,27 @@ h1.h1Contacto {
   margin-bottom: 20px;
   text-align: center; }
 
-form {
+.form {
   border: solid 3px black;
   padding: 50px;
   border-radius: 25px;
   background: rgba(102, 97, 97, 0.548); }
-
-input {
-  border: solid 2px black;
-  padding: 2px; }
-
-textarea {
-  border: solid 2px black;
-  padding: 2px; }
-
-.boton {
-  font-weight: bold;
-  font-size: 15px;
-  width: 100%;
-  cursor: pointer;
-  padding: 20px;
-  margin: 0 10px 20px 0;
-  border: 2px solid black;
-  background: #eee23b;
-  border-radius: 8px 8px 8px 8px; }
+  .form__input {
+    border: solid 2px black;
+    padding: 2px; }
+  .form__textarea {
+    border: solid 2px black;
+    padding: 2px; }
+  .form__boton {
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 10px 20px 0;
+    border: 2px solid black;
+    background: #eee23b;
+    border-radius: 8px 8px 8px 8px; }
 
 .h2nosotros {
   text-align: center;
@@ -53,20 +50,34 @@ textarea {
   margin: 20px auto;
   padding: 15px; }
 
+<<<<<<< HEAD
 section.sectionSoporte {
   margin: 50px 25% 100px 25%; }
+=======
+.soporte {
+  margin: 50px 15% 0 15%; }
+  .soporte__h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px; }
+  .soporte__h2 {
+    font-size: 25px; }
+  .soporte__img {
+    margin-top: 100px;
+    width: 90%; }
+>>>>>>> 76b3b8d4472f3c26700cec943f5490c5765b3019
 
 .h1soporte {
   margin-bottom: 50px;
   text-align: center; }
 
 .imgSoporte {
-  padding-top: 125px;
-  margin-left: 250px; }
+  margin-top: 100px;
+  width: 90%; }
 
 div.productos img {
-  height: 300px;
   width: 300px;
+  height: 300px;
   padding: 15px;
   border-radius: 25px;
   box-shadow: 10px 5px 5px black;
@@ -76,12 +87,6 @@ div.productos img {
     transform: scale(1.05);
     border: solid 1px #083a52;
     transition-duration: .5s; }
-
-div.titulos h2 {
-  width: 300px;
-  font-family: "Lora", serif;
-  text-decoration: underline;
-  font-size: 50px; }
 
 h1.h1Tienda {
   text-align: center;
@@ -113,18 +118,18 @@ header {
   top: 25px;
   left: 25px; }
 
-ul {
+.nav__ul {
   background-color: #1d2147;
   padding: 30px;
   text-align: center; }
-  ul li {
+  .nav__ul--li {
     list-style: none;
     background-color: #50d2e4;
     padding: 5px;
     border-radius: 25%;
     display: inline-block;
     margin-right: 10px; }
-    ul li:hover {
+    .nav__ul--li:hover {
       background-color: aqua;
       transition-duration: 1s; }
 

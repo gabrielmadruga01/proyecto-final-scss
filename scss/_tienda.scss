@@ -1,7 +1,6 @@
 div.productos {
 	img {
-		height: 300px;
-		width: 300px;
+		@include tamanio(300px, 300px);
 		padding: 15px;
 		border-radius: 25px;
 		box-shadow: 10px 5px 5px black;
@@ -14,14 +13,7 @@ div.productos {
 		}
 	}
 }
-div.titulos {
-	h2 {
-		width: 300px;
-		font-family: $font-family_1;
-		text-decoration: underline;
-		font-size: 50px;
-	}
-}
+
 h1.h1Tienda {
 	text-align: center;
 	padding: 30px;
