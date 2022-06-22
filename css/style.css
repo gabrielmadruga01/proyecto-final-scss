@@ -50,20 +50,29 @@ h1.h1Contacto {
   margin: 20px auto;
   padding: 15px; }
 
-section.sectionSoporte {
-  margin: 50px 300px 100px 300px; }
+.soporte {
+  margin: 50px 15% 0 15%; }
+  .soporte__h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px; }
+  .soporte__h2 {
+    font-size: 25px; }
+  .soporte__img {
+    margin-top: 100px;
+    width: 90%; }
 
 .h1soporte {
   margin-bottom: 50px;
   text-align: center; }
 
 .imgSoporte {
-  padding-top: 125px;
-  margin-left: 250px; }
+  margin-top: 100px;
+  width: 90%; }
 
 div.productos img {
-  height: 300px;
   width: 300px;
+  height: 300px;
   padding: 15px;
   border-radius: 25px;
   box-shadow: 10px 5px 5px black;
@@ -73,12 +82,6 @@ div.productos img {
     transform: scale(1.05);
     border: solid 1px #083a52;
     transition-duration: .5s; }
-
-div.titulos h2 {
-  width: 300px;
-  font-family: "Lora", serif;
-  text-decoration: underline;
-  font-size: 50px; }
 
 h1.h1Tienda {
   text-align: center;

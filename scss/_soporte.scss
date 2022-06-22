@@ -1,11 +1,23 @@
-section.sectionSoporte {
-	margin: 50px 300px 100px 300px;
+.soporte {
+	margin: 50px 15% 0 15%;
+	&__h1{
+		margin-bottom: 50px;
+		text-align: center;
+		font-size: 50px;
+	}
+	&__h2{
+		font-size: 25px;
+	}
+	&__img{
+		margin-top: 100px;
+	width: 90%;
+	}
 }
 .h1soporte {
 	margin-bottom: 50px;
 	text-align: center;
 }
 .imgSoporte {
-	padding-top: 125px;
-	margin-left: 250px;
+	margin-top: 100px;
+	width: 90%;
 }
