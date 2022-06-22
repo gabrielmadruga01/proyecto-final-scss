@@ -38,7 +38,7 @@ textarea {
   font-size: 50px; }
 
 .pNosotros {
-  margin: 0 200px 0 200px;
+  margin: 0 15% 0 15%;
   padding: 25px; }
 
 .imgNosotros {
@@ -54,7 +54,7 @@ textarea {
   padding: 15px; }
 
 section.sectionSoporte {
-  margin: 50px 300px 100px 300px; }
+  margin: 50px 25% 100px 25%; }
 
 .h1soporte {
   margin-bottom: 50px;
@@ -86,6 +86,12 @@ div.titulos h2 {
 h1.h1Tienda {
   text-align: center;
   padding: 30px; }
+
+@media (max-width: 770px) {
+  .tienda {
+    display: flex;
+    flex-direction: row;
+    align-items: center; } }
 
 * {
   margin: 0px;
@@ -177,7 +183,9 @@ li.footer {
 @media (max-width: 770px) {
   .bodyIndex {
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .imgNoticias {
+    display: none; } }
 
 @media (max-width: 380px) {
   .bodyIndex {

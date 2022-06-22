@@ -101,6 +101,10 @@ li.footer {
 	.bodyIndex {
 		flex-direction: column;
 		align-items: center;
+
+	}
+	.imgNoticias {
+		display: none;
 	}
 }
 @media (max-width:380px) {
