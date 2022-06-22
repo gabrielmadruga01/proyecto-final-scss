@@ -7,28 +7,28 @@ h1.h1Contacto {
 	margin-bottom: 20px;
 	text-align: center;
 }
-form {
+.form {
 	border: solid 3px black;
 	padding: 50px;
 	border-radius: 25px;
 	background: rgba(102, 97, 97, 0.548);
-}
-input {
-	border: solid 2px black;
-	padding: 2px;
-}
-textarea {
-	border: solid 2px black;
-	padding: 2px;
-}
-.boton {
-	font-weight: bold;
-	font-size: 15px;
-	width: 100%;
-	cursor: pointer;
-	padding: 20px;
-	margin: 0 10px 20px 0;
-	border: 2px solid black;
-	background: #eee23b;
-	border-radius: 8px 8px 8px 8px;
+	&__input{
+		border: solid 2px black;
+		padding: 2px;
+	}
+	&__textarea{
+		border: solid 2px black;
+		padding: 2px;
+	}
+	&__boton{
+		font-weight: bold;
+		font-size: 15px;
+		width: 100%;
+		cursor: pointer;
+		padding: 20px;
+		margin: 0 10px 20px 0;
+		border: 2px solid black;
+		background: $bg-color_5;
+		border-radius: 8px 8px 8px 8px;
+	}
 }
