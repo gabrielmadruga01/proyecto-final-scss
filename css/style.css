@@ -107,18 +107,18 @@ header {
   top: 25px;
   left: 25px; }
 
-ul {
+.nav__ul {
   background-color: #1d2147;
   padding: 30px;
   text-align: center; }
-  ul li {
+  .nav__ul--li {
     list-style: none;
     background-color: #50d2e4;
     padding: 5px;
     border-radius: 25%;
     display: inline-block;
     margin-right: 10px; }
-    ul li:hover {
+    .nav__ul--li:hover {
       background-color: aqua;
       transition-duration: 1s; }
 
