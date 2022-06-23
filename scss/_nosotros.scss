@@ -9,13 +9,14 @@
 }
 .imgNosotros {
 	display: block;
-	height: 300px;
-	width: 300px;
+	@include tamanio (300px, 300px);
 	margin: auto;
 	padding: 30px;
 }
 .imgMasTxt {
-	width: 50%;
-	margin: 20px auto;
-	padding: 15px;
+	display: flex;
+	@include ancho (50%);
+	margin: auto;
+	padding: 30px;
+	
 }

@@ -2,3 +2,11 @@
     width: $width;
     height: $height;
 }
+
+@mixin ancho ($width) {
+    width: $width;
+}
+
+@mixin alto ($height) {
+    height: $height;
+}

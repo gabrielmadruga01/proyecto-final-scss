@@ -21,14 +21,6 @@ h1.h1Contacto {
 		padding: 2px;
 	}
 	&__boton{
-		font-weight: bold;
-		font-size: 15px;
-		width: 100%;
-		cursor: pointer;
-		padding: 20px;
-		margin: 0 10px 20px 0;
-		border: 2px solid black;
-		background: $bg-color_5;
-		border-radius: 8px 8px 8px 8px;
+		@extend .boton;
 	}
 }

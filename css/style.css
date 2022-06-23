@@ -1,3 +1,51 @@
+/*nav*/
+.nav-ul, .nav__ul {
+  background-color: #1d2147;
+  padding: 30px;
+  text-align: center; }
+
+.nav-li, .nav__ul--li {
+  list-style: none;
+  background-color: #50d2e4;
+  padding: 5px;
+  border-radius: 25%;
+  display: inline-block;
+  margin-right: 10px; }
+
+.nav-a, a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold; }
+
+/*footer*/
+.footer-redes, .redes {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+/*contactos form*/
+.boton, .form__boton {
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  padding: 20px;
+  margin: 0 10px 20px 0;
+  border: 2px solid black;
+  background: #eee23b;
+  border-radius: 8px 8px 8px 8px; }
+
+.form {
+  border: solid 3px black;
+  padding: 50px;
+  border-radius: 25px;
+  background: rgba(102, 97, 97, 0.548); }
+
 section.sectionContacto {
   display: flex;
   justify-content: center;
@@ -18,16 +66,6 @@ h1.h1Contacto {
   .form__textarea {
     border: solid 2px black;
     padding: 2px; }
-  .form__boton {
-    font-weight: bold;
-    font-size: 15px;
-    width: 100%;
-    cursor: pointer;
-    padding: 20px;
-    margin: 0 10px 20px 0;
-    border: 2px solid black;
-    background: #eee23b;
-    border-radius: 8px 8px 8px 8px; }
 
 .h2nosotros {
   text-align: center;
@@ -40,20 +78,17 @@ h1.h1Contacto {
 
 .imgNosotros {
   display: block;
-  height: 300px;
   width: 300px;
+  height: 300px;
   margin: auto;
   padding: 30px; }
 
 .imgMasTxt {
+  display: flex;
   width: 50%;
-  margin: 20px auto;
-  padding: 15px; }
+  margin: auto;
+  padding: 30px; }
 
-<<<<<<< HEAD
-section.sectionSoporte {
-  margin: 50px 25% 100px 25%; }
-=======
 .soporte {
   margin: 50px 15% 0 15%; }
   .soporte__h1 {
@@ -65,7 +100,6 @@ section.sectionSoporte {
   .soporte__img {
     margin-top: 100px;
     width: 90%; }
->>>>>>> 76b3b8d4472f3c26700cec943f5490c5765b3019
 
 .h1soporte {
   margin-bottom: 50px;
@@ -98,6 +132,54 @@ h1.h1Tienda {
     flex-direction: row;
     align-items: center; } }
 
+/*nav*/
+.nav-ul, .nav__ul {
+  background-color: #1d2147;
+  padding: 30px;
+  text-align: center; }
+
+.nav-li, .nav__ul--li {
+  list-style: none;
+  background-color: #50d2e4;
+  padding: 5px;
+  border-radius: 25%;
+  display: inline-block;
+  margin-right: 10px; }
+
+.nav-a, a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold; }
+
+/*footer*/
+.footer-redes, .redes {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+/*contactos form*/
+.boton, .form__boton {
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  padding: 20px;
+  margin: 0 10px 20px 0;
+  border: 2px solid black;
+  background: #eee23b;
+  border-radius: 8px 8px 8px 8px; }
+
+.form {
+  border: solid 3px black;
+  padding: 50px;
+  border-radius: 25px;
+  background: rgba(102, 97, 97, 0.548); }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -107,37 +189,43 @@ header {
 
 .headerImg {
   position: relative;
-  height: 450px;
   width: 100%;
+  height: 450px;
+  /*height: 450px;
+	width: 100%;
+	*/
   margin-bottom: 0px; }
 
 .logo {
   position: absolute;
-  height: 200px;
   width: 200px;
+  height: 200px;
   top: 25px;
   left: 25px; }
 
 .nav__ul {
-  background-color: #1d2147;
-  padding: 30px;
-  text-align: center; }
+  /*background-color: $bg-color_1;
+		padding: 30px;
+		text-align: center;
+*/ }
   .nav__ul--li {
-    list-style: none;
-    background-color: #50d2e4;
-    padding: 5px;
-    border-radius: 25%;
-    display: inline-block;
-    margin-right: 10px; }
+    /*list-style: none;
+			background-color: $bg-color_2;
+			padding: 5px;
+			border-radius: 25%;
+			display: inline-block;
+			margin-right: 10px;*/ }
     .nav__ul--li:hover {
       background-color: aqua;
       transition-duration: 1s; }
 
 a {
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold; }
+  /*
+	color: $color_1;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	*/ }
 
 .tituloTabla {
   color: darkslategray;
@@ -164,8 +252,11 @@ li.footer {
   display: inline-block;
   position: sticky; }
   li.footer img {
-    height: 50px;
     width: 50px;
+    height: 50px;
+    /*height: 50px;
+		width: 50px;
+		*/
     float: left;
     margin-left: 40px; }
 
@@ -175,15 +266,6 @@ li.footer {
 .olRedes {
   text-align: center;
   background-color: #1d2147; }
-
-.redes {
-  color: black;
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 @media (max-width: 770px) {
   .bodyIndex {
