@@ -1,7 +1,7 @@
 section.sectionContacto {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 30px;
+
 }
 h1.h1Contacto {
 	margin-bottom: 20px;
@@ -9,7 +9,6 @@ h1.h1Contacto {
 }
 .form {
 	border: solid 3px black;
-	padding: 50px;
 	border-radius: 25px;
 	background: rgba(102, 97, 97, 0.548);
 	&__input{
@@ -23,4 +22,7 @@ h1.h1Contacto {
 	&__boton{
 		@extend .boton;
 	}
+}
+textarea{
+	width: 90%;
 }
