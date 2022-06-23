@@ -19,10 +19,11 @@ h1.h1Tienda {
 	padding: 30px;
 }
 
-@media(max-width: 770px){
+@media(max-width: 1200px){
 	.tienda{
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		justify-content: center;
 	}
 	}

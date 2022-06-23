@@ -6,7 +6,6 @@
 @import "nosotros.scss";
 @import "soporte.scss";
 @import "tienda.scss";
-@import "variables/extend";
 
 
 * {
@@ -58,15 +57,6 @@ header {
 	}
 }
 
-a {
-	@extend .nav-a;
-	/*
-	color: $color_1;
-	text-decoration: none;
-	font-size: 25px;
-	font-weight: bold;
-	*/
-}
 
 .tituloTabla {
 	color: $color_2;
@@ -144,10 +134,9 @@ li.footer {
 	}
 }
 
-@media (max-width: 990px) {
-	ul {
-		li {
-			border-radius: 0;
-		}
+
+@media(max-width: 770px){
+	.nav-link{
+		color: cadetblue;
 	}
 }
