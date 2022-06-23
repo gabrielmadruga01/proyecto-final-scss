@@ -28,3 +28,17 @@
 	flex-direction: column;
 }
 }
+@media (max-width: 992px){
+	.pNosotros{
+	width: 95%;
+	text-align: center;
+	margin-left: 0;
+}
+}
+
+@media(max-width: 992px){
+	.imgMasTxt{
+		width: 95%;
+		margin-left: 0;
+	}
+}

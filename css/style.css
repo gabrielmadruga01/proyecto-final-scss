@@ -44,6 +44,10 @@
   border-radius: 25px;
   background: rgba(102, 97, 97, 0.548); }
 
+.h1 {
+  text-align: center;
+  padding: 30px; }
+
 section.sectionContacto {
   display: flex;
   justify-content: center; }
@@ -55,7 +59,8 @@ h1.h1Contacto {
 .form {
   border: solid 3px black;
   border-radius: 25px;
-  background: rgba(102, 97, 97, 0.548); }
+  background: rgba(102, 97, 97, 0.548);
+  margin-bottom: 30px; }
   .form__input {
     border: solid 2px black;
     padding: 2px; }
@@ -94,6 +99,17 @@ textarea {
 @media (max-width: 992px) {
   .imgMasTxt {
     flex-direction: column; } }
+
+@media (max-width: 992px) {
+  .pNosotros {
+    width: 95%;
+    text-align: center;
+    margin-left: 0; } }
+
+@media (max-width: 992px) {
+  .imgMasTxt {
+    width: 95%;
+    margin-left: 0; } }
 
 .soporte {
   margin: 50px 15% 0 15%; }
@@ -235,3 +251,7 @@ li.footer {
 @media (max-width: 770px) {
   .nav-link {
     color: cadetblue; } }
+
+@media (max-width: 770px) {
+  .textoNoticias {
+    width: 95%; } }

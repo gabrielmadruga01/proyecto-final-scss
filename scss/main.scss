@@ -57,6 +57,9 @@ header {
 		}
 	}
 }
+.h1{
+	@extend .h1;
+}
 
 
 .tituloTabla {
@@ -139,5 +142,10 @@ li.footer {
 @media(max-width: 770px){
 	.nav-link{
 		color: cadetblue;
+	}
+}
+@media(max-width: 770px){
+	.textoNoticias{
+		width: 95%;
 	}
 }
