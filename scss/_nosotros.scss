@@ -1,3 +1,6 @@
+.contNosotors{
+	align-items: center;
+}
 .h2nosotros {
 	text-align: center;
 	padding: 25px;
@@ -15,8 +18,13 @@
 }
 .imgMasTxt {
 	display: flex;
-	@include ancho (50%);
-	margin: auto;
+	margin: 0 15% 0 15%;
 	padding: 30px;
+	align-items: center;
 	
+}
+@media (max-width: 992px){
+	.imgMasTxt{
+	flex-direction: column;
+}
 }
