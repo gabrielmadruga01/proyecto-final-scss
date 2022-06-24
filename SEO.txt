@@ -1,0 +1,25 @@
+--- sitemap ---
+
+-se crea y agrega archivo sitemap.xml
+
+--- keywords ---
+
+-agrego keywords en index
+-agrego keywords en contactos
+-agrego keywords en nosotros
+-agrego keywords en tienda
+-agrego keywords en soporte
+
+--- description ---
+
+-agrego description en index
+-agrego description en contactos
+-agrego description en nosotros
+-agrego description en tienda
+-agrego description en soporte
+
+--- pages ---
+
+se crea carpeta pages y se mueven archivos a la misma, 
+tambien se linkea nuevamene los enlaces del nav de todas las paginas
+
