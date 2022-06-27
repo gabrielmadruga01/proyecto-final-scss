@@ -254,4 +254,13 @@ li.footer {
 
 @media (max-width: 770px) {
   .textoNoticias {
-    width: 95%; } }
+    height: 95%; } }
+
+@media (max-width: 770px) {
+  .headerImg {
+    height: 300px; } }
+
+@media (max-width: 770px) {
+  .logo {
+    width: 100px;
+    height: 100px; } }

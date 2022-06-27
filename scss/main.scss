@@ -146,6 +146,18 @@ li.footer {
 }
 @media(max-width: 770px){
 	.textoNoticias{
-		width: 95%;
+		@include alto(95%) ;
+	}
+}
+
+@media(max-width: 770px){
+	.headerImg{
+		@include alto(300px)
+	}
+}
+
+@media(max-width: 770px){
+	.logo{
+		@include tamanio(100px, 100px)
 	}
 }
