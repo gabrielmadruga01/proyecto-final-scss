@@ -1,266 +1,218 @@
-/*nav*/
-.nav-ul, .nav__ul {
-  background-color: #1d2147;
-  padding: 30px;
-  text-align: center; }
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.nav-li, .nav__ul--li {
-  list-style: none;
-  background-color: #50d2e4;
-  padding: 5px;
-  border-radius: 25%;
-  display: inline-block;
-  margin-right: 10px; }
-  @media (max-width: 992px) {
-    .nav-li, .nav__ul--li {
-      border-radius: 0%;
-      background-color: #1d2147; } }
+ 
+.lead{
+    font-size: 5rem;
+}
+header{
+    height: 30%;
+    background-color: white;
+}
 
-/*footer*/
-.footer-redes, .redes {
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
-/*contactos form*/
-.boton, .form__boton {
-  font-weight: bold;
-  font-size: 15px;
-  width: 100%;
-  cursor: pointer;
-  padding: 20px;
-  margin: 0 10px 20px 0;
-  border: 2px solid black;
-  background: #eee23b;
-  border-radius: 8px 8px 8px 8px; }
+.imagenHeader{
+    
+    position: relative;
+        height: 100%;
+        width: 45%;
+        margin-top: 65px;
+        margin-left: 25%;
+        
+        
+}
+@media(max-width: 770px){
+	.imagenHeader{ width: 300px;
+        margin-top: 10%;
+        margin-left: 150px;
+        
+	}
+}
 
-.form {
-  border: solid 3px black;
-  padding: 50px;
-  border-radius: 25px;
-  background: rgba(102, 97, 97, 0.548); }
+.logo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 25px;
+    left: 25px;
+    margin-left: 75px;
+    
+}
 
-.h1 {
-  text-align: center;
-  padding: 30px; }
+@media(max-width: 770px){
+	.logo{
+		width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+        margin-left: 0;
+	}
+}
 
-section.sectionContacto {
-  display: flex;
-  justify-content: center; }
+body{
+    background-color: #5ce1e6;
+}
 
-h1.h1Contacto {
-  margin-bottom: 20px;
-  text-align: center; }
 
-.form {
-  border: solid 3px black;
-  border-radius: 25px;
-  background: rgba(102, 97, 97, 0.548);
-  margin-bottom: 30px; }
-  .form__input {
-    border: solid 2px black;
-    padding: 2px; }
-  .form__textarea {
-    border: solid 2px black;
-    padding: 2px; }
-
-textarea {
-  width: 90%; }
-
-.contNosotors {
-  align-items: center; }
-
-.h2nosotros {
-  text-align: center;
-  padding: 25px;
-  font-size: 50px; }
-
-.pNosotros {
-  margin: 0 15% 0 15%;
-  padding: 25px; }
-
-.imgNosotros {
-  display: block;
-  width: 300px;
-  height: 300px;
-  margin: auto;
-  padding: 30px; }
-
-.imgMasTxt {
-  display: flex;
-  margin: 0 15% 0 15%;
-  padding: 30px;
-  align-items: center; }
-
-@media (max-width: 992px) {
-  .imgMasTxt {
-    flex-direction: column; } }
-
-@media (max-width: 992px) {
-  .pNosotros {
-    width: 95%;
-    text-align: center;
-    margin-left: 0; } }
-
-@media (max-width: 992px) {
-  .imgMasTxt {
-    width: 95%;
-    margin-left: 0; } }
-
-.soporte {
-  margin: 50px 15% 0 15%; }
-  .soporte__h1 {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 50px; }
-  .soporte__h2 {
-    font-size: 25px; }
-  .soporte__img {
-    margin-top: 100px;
-    width: 90%; }
-
-.h1soporte {
-  margin-bottom: 50px;
-  text-align: center; }
-
-.imgSoporte {
-  margin-top: 100px;
-  width: 90%; }
-
-div.productos img {
-  width: 300px;
-  height: 300px;
-  padding: 15px;
-  border-radius: 25px;
-  box-shadow: 10px 5px 5px black;
-  margin-bottom: 30px;
-  border: solid 1px grey; }
-  div.productos img:hover {
-    transform: scale(1.05);
-    border: solid 1px #083a52;
-    transition-duration: .5s; }
-
-h1.h1Tienda {
-  text-align: center;
-  padding: 30px; }
-
-@media (max-width: 1200px) {
-  .tienda {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; } }
-
-* {
-  margin: 0px;
-  padding: 0px; }
-
-header {
-  height: 30%; }
-
-.headerImg {
-  position: relative;
-  width: 100%;
-  height: 450px;
-  /*height: 450px;
-	width: 100%;
-	*/
-  margin-bottom: 0px; }
-
-.logo {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 25px;
-  left: 25px; }
-
-.nav__ul {
-  /*background-color: $bg-color_1;
-		padding: 30px;
-		text-align: center;
-*/ }
-  .nav__ul--li {
-    /*list-style: none;
-			background-color: $bg-color_2;
-			padding: 5px;
-			border-radius: 25%;
-			display: inline-block;
-			margin-right: 10px;*/ }
-    .nav__ul--li:hover {
-      background-color: aqua;
-      transition-duration: 1s; }
-
-.tituloTabla {
-  color: darkslategray;
-  background-color: darkorange; }
-
+.container-fluid{
+    background-color: #042a5d;
+    padding: 15px;
+    margin-top: 0%;
+}
 .imgNoticias {
-  width: 400px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 15%; }
-  .imgNoticias:hover {
-    transform: scale(1.05);
-    transition-duration: .5s; }
+	width: 350px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 15%;
+} 
+
+.navbar{
+    padding: 0%;
+    margin-top: 50px;
+}
+
+a style{
+    color: white;
+}
+
+p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+.PNav{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+    font-style: normal; 
+}
+.dondeVoto{
+    margin-bottom: 50px;
+
+    width: 270px;
+}
+.qr{
+    width: 250px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+}
+.TextoQR{
+    font-size: xx-large;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+@media(max-width: 770px){
+	.qr{
+		width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        float:left
+            
+	}
+}
+@media(max-width: 770px){
+    .TextoQR{
+        font-size: small;
+        float:inline-start;
+        margin-left: 15px;
+        
+    }
+@media (max-width:770px) {
+    .dondeVoto{
+        margin-left: 120px;
+    }
+}
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.SubTitulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    margin-left: 45px;
+    margin-right:45px;
+    margin-bottom: 45px;
+}
+@media (max-width:770px) {
+    .SubTitulo{
+        font-size: 20px;
+    }
+}
+h3{
+    font-family: 'Lora', serif;
+}
+
+
+.imgNoticias:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+    transform: scale(1.1);
+}
+.fotosGatos{
+    margin-bottom: 30px;
+}
+
+.videoGatos{
+    margin-bottom: 30px;
+}
+.container{
+    margin-top: 200px;
+}
 
 footer {
-  background-color: #1d2147;
-  width: 100%; }
+	background-color:#5ce1e6;
+	height: 100%;
+}
 
 ol {
-  list-style: none;
-  padding: 0%; }
+	list-style: none;
+	padding: 0%;
+}
 
 li.footer {
-  display: inline-block;
-  position: sticky; }
-  li.footer img {
-    width: 50px;
-    height: 50px;
-    /*height: 50px;
+	img {
+		
+		height: 50px;
 		width: 50px;
-		*/
-    float: left;
-    margin-left: 40px; }
+		
+		float: left;
+		margin-left: 40px;
+	}
+
+	display: inline-block;
+	position: sticky;
+}
 
 .navFooter {
-  margin-top: auto; }
+	margin-top: auto;
+}
 
 .olRedes {
-  text-align: center;
-  background-color: #1d2147; }
+	text-align: center;
+	background-color: #5ce1e6;
+}
+.redes{
+    color: black;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #5ce1e6;
+}
 
-@media (max-width: 770px) {
-  .bodyIndex {
-    flex-direction: column;
-    align-items: center; }
-  .imgNoticias {
-    display: none; } }
+@media (max-width:380px){
+    .noticiasMishis{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media (max-width: 380px) {
-  .bodyIndex {
-    flex-direction: column;
-    align-items: center; }
-  .imgNoticias {
-    display: none; } }
 
-@media (max-width: 770px) {
-  .nav-link {
-    color: cadetblue; } }
-
-@media (max-width: 770px) {
-  .textoNoticias {
-    height: 95%; } }
-
-@media (max-width: 770px) {
-  .headerImg {
-    height: 300px; } }
-
-@media (max-width: 770px) {
-  .logo {
-    width: 100px;
-    height: 100px; } }
